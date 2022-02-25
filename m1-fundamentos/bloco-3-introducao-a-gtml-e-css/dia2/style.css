@@ -1,0 +1,59 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+ul {
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.list-style {
+  background-color:dimgray;
+  color: white;
+}
+
+#red {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#yellow {
+  background-color: yellow;
+  color: black;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#indigo {
+  background-color: indigo;
+}
+
+#violet {
+  background-color: violet;
+}
