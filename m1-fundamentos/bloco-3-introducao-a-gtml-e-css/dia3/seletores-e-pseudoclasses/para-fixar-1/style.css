@@ -1,0 +1,29 @@
+body {
+  background-color: teal;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1, p {
+  text-align: center;
+}
+
+ol {
+  list-style: none
+}
+
+li:hover {
+  background-color: palevioletred;
+}
+
+li:active {
+  background-color: black;
+  color: palevioletred;
+  transition: 0.5s;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  
+}
