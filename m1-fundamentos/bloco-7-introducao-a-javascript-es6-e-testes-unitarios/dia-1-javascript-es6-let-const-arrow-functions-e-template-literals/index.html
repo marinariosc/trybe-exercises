@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>botão</title>
+  </head>
+  <body>
+    <header>Contador da questão três.</header>
+    <br />
+    <div>
+      <button id="botão">Conta</button>
+    </div>
+    <div>
+        <p id="numeroDeCliques" ></p>
+    </div>
+  </body>
+  <script>
+    let clickCount = '';
+    const numCliques = document.getElementById("numeroDeCliques");
+    const botão = document.getElementById("botão");
+    function contar() {
+      numCliques.innerText = clickCount += 1;
+    }
+    botão.addEventListener("click", contar);
+  </script>
+</html>
